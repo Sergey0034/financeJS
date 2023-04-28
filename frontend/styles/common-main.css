@@ -1,0 +1,261 @@
+.categories-income {
+    height: 100vh;
+    border-right: 1px solid #D9D9D9;;
+}
+
+.logo-lumincoin.sidebar {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.logo-Finance.sidebar {
+    font-size: 6px;
+    line-height: 1;
+}
+
+.logo-sidebar {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 73px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.line.line-second {
+    margin-bottom: 20px;
+
+}
+
+.sidebar-icons {
+    margin-right: 10px;
+    fill: #212529;
+}
+
+.nav-pills li {
+    font-size: 14px;
+}
+
+.nav-pills .nav-link {
+    color: #212529;
+}
+
+.nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active .sidebar-icons {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+    fill: white;
+}
+
+
+
+.sidebar-dropdown-icon {
+    position: relative;
+    right: -65px;
+    transition: all .1s linear;
+}
+
+.transform {
+    transform: rotate(180deg);
+}
+.nav-pills .nav-item-categories .nav-link.active .sidebar-dropdown-icon {
+    fill: white;
+}
+
+.nav-pills li:nth-child(3) a {
+    border-radius: 5px 5px 0 0;
+}
+
+
+.nav-pills .show .nav-link.active {
+    color: white!important;
+    border-radius: 0;
+}
+
+.nav-pills .nav-item-categories.active {
+    border: 1px solid #0D6EFD;
+    border-radius: 8px;
+}
+
+.balance {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 14px;
+    color: #052C65;
+    margin: 20px;
+}
+
+.balance span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #0D6EFD;
+}
+
+.full-name-user {
+    font-family: RobotoRegular, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #052C65;
+    margin-left: 16px;
+}
+
+#profile {
+    display: none;
+    align-items: center;
+    margin: 4px 4px 24px 4px;
+    cursor: pointer;
+}
+
+.item {
+    padding: 20px 100px 20px 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+    height: 121px;
+    width: 352px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.item .item-title {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #290661;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    color: #052C65;
+    margin-bottom: 40px;
+}
+
+.item-buttons {
+    display: flex;
+}
+
+.item-button {
+    padding: 11px 16px;
+    font-family: RobotoMedium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-blue {
+    background: #0D6EFD;
+    margin-right: 10px;
+}
+
+.button-red, .button-cancel {
+    background: #DC3545;
+}
+
+.main-content-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item .create-item {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #CED4DA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.create-item-card {
+    cursor: pointer;
+}
+
+#popup-delete {
+    width:100%;
+    height: 100%;
+    background: #00000073;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    display: none;
+}
+
+#popup-delete-block {
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    display: none;
+}
+
+.popup-delete-title {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #290661;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.popup-delete-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+}
+
+
+
+.popup-delete-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button-yes {
+    background: #198754;
+    margin-right: 12px;
+}
+
+.button-create {
+    background: #198754;
+    margin-right: 12px;
+}
+
+.balance {
+    margin-right: 10px;
+}
+
+.dropdown-toggle {
+     white-space: normal;
+}
+
+#dropdown-menu {
+    transform: translate(0px, -44px);
+}
+
+.show {
+    display: block;
+}
+
+

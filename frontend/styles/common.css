@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: SecretService;
+    src: url("/fonts/SecretService-Regular.ttf");
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url("/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url("/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("/fonts/Roboto-Regular.ttf");
+}
+
+body {
+    font-family: RobotoRegular, sans-serif;
+    height: 100%;
+}
+
+.page-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*.logo {*/
+/*    height: 70px;*/
+/*    width: 171px;*/
+/*}*/
+
+.logo-lumincoin {
+    font-family: SecretService, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #0D6EFD;
+}
+
+.logo-Finance {
+    font-family: InterBold, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 0;
+    letter-spacing: 1.2em;
+    text-transform: uppercase;
+    color: #052C65;
+}
+
+.page-login-title {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    color: #052C65;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    height: 38px;
+    width: 397px;
+    border-radius: 4px;
+}
+
+.btn {
+    height: 38px;
+    width: 397px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.btn {
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    width: 38px;
+}
+
+.content {
+    display: flex;
+}
+
+.main {
+    margin: 100px 60px ;
+}
+
+.path-registration a {
+    margin-left: 10px;
+}
+
+.logo {
+    margin-bottom: 0;
+}
+
+
+
+

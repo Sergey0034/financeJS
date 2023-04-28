@@ -1,0 +1,17 @@
+.chart {
+    height: 580px;
+    width: 580px;
+}
+
+.chart-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+#line {
+    border-right: 1px solid #D9D9D9;
+    height: 580px;
+}
+
+
+

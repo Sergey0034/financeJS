@@ -1,0 +1,113 @@
+.categories-income {
+    height: 100vh;
+    border-right: 1px solid #D9D9D9;;
+}
+
+.logo-lumincoin.sidebar {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.logo-Finance.sidebar {
+    font-size: 6px;
+    line-height: 1;
+}
+
+.logo-sidebar {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 73px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.line.line-second {
+    margin-bottom: 20px;
+
+}
+
+/*.sidebar-dropdown-icon {*/
+/*    color:  #212529;*/
+/*}*/
+
+.sidebar-icons {
+    margin-right: 10px;
+    fill: #212529;
+}
+
+.nav-pills li {
+    font-size: 14px;
+}
+
+.nav-pills .nav-link {
+    color: #212529;
+}
+
+.nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active .sidebar-icons {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+    fill: white;
+}
+
+
+
+.sidebar-dropdown-icon {
+    position: relative;
+    right: -65px;
+    transition: all .1s linear;
+}
+
+.transform {
+    transform: rotate(180deg);
+}
+.nav-pills .nav-item-categories .nav-link.active .sidebar-dropdown-icon {
+    fill: white;
+}
+
+.nav-pills li:nth-child(3) a {
+    border-radius: 5px 5px 0 0;
+}
+
+
+.nav-pills .show .nav-link.active {
+    color: white!important;
+    border-radius: 0;
+}
+
+.nav-pills .nav-item-categories.active {
+    border: 1px solid #0D6EFD;
+    border-radius: 8px;
+}
+
+.balance {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 14px;
+    color: #052C65;
+    margin: 20px;
+}
+
+.balance span {
+    font-size: 14px;
+    line-height: 16px;
+    color: #0D6EFD;
+}
+
+.full-name-user {
+    font-family: RobotoRegular, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #052C65;
+    margin-left: 16px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 0 4px 24px 4px;
+    cursor: pointer;
+}

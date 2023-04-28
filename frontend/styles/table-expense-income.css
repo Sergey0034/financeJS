@@ -1,0 +1,99 @@
+.create-category-expense-buttons {
+    margin-bottom: 40px;
+}
+
+.period-items {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+.period-item {
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 4px;
+    padding: 9px 12px 9px 12px;
+    border: 1px solid #6C757D;
+    color: #6C757D;
+    text-align: center;
+    background: white;
+    font-family: RobotoMedium, sans-serif;
+    font-size: 16px;
+}
+
+.interval {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.active-buttons {
+    background: #6C757D;
+    color: #FFFFFF;
+}
+
+.interval input {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 16px;
+    /*text-decoration-line: underline;*/
+    color: #6C757D;
+    padding: 9px 12px 9px 12px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    line-height: 19px;
+    width: 110px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td, th {
+    text-align: center;
+    border-top: 1px solid #DEE2E6;
+    border-bottom: 1px solid #DEE2E6;
+    padding: 12px 0 14px 0;
+}
+
+th {
+    font-family: RobotoMedium, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1;
+    color: #052C65;
+}
+
+td svg {
+    cursor: pointer;
+}
+
+.editing svg:nth-child(1) {
+    margin-right: 10px;
+}
+
+.type.income {
+    color: #198754;
+}
+
+.type.expense {
+    color: #DC3545;
+}
+
+.id {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: bold;
+    color: #000000;
+}
+
+#popup-delete-block {
+    width: 530px;
+    height: 161px;
+}
+
+
+
